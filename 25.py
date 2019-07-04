@@ -1,5 +1,5 @@
-l=int(input())
-s=list(map(int,input().split()[:l]))
+v=int(input())
+s=list(map(int,input().split()[:v]))
 s.sort()
 k=int((l/2))
 print(s[k])
